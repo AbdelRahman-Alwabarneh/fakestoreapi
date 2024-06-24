@@ -1,0 +1,83 @@
+:root {
+  --gradient-color: linear-gradient(90deg, #1e38a3, #021048);
+  --black: black;
+  --white: #ddebfe;
+  --blue-1: #1e38a3;
+}
+body {
+  background-color: #eef3fa;
+}
+.navbar {
+  padding-left: 95px;
+  background-color: var(--white);
+  border-bottom: 2px solid gray;
+}
+
+.navbar-brand img {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  color: var(--black);
+}
+
+.drop-down a {
+  font-weight: bold;
+  color: var(--black);
+}
+
+.nav-link:hover,
+.dropdown-menu a:hover {
+  color: var(--blue-1);
+}
+
+#card,
+#card2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 1000px;
+}
+.All-Card,
+#All-Card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 450px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 1px grey;
+  overflow: scroll;
+}
+.All-Card2 {
+  overflow: auto;
+}
+.section_footer {
+  background-color: #ddebfe;
+}
+#div_form {
+  display: flex;
+  justify-content: center;
+}
+#form {
+  text-align: center;
+}
+@media (max-width: 840px) {
+  .navbar {
+    padding-left: 0px;
+  }
+}
